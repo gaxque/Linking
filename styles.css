@@ -77,7 +77,7 @@ footer {
 
 
 /* styled for mobile screens */
-@media only screen and (max-width: 490px) {
+@media (max-width: 490px) {
 
 
     .column {
