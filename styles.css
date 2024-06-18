@@ -81,10 +81,8 @@ footer {
 
 
     .column {
-
-        column-count: 2;
-        column-gap: 20px;
-        
+        column-count: 3;
+        transform: translate(12.5px, 0px);
         }
 
     body {
@@ -116,15 +114,16 @@ footer {
     }
 
     a {
-        font-size: 11px;
+        width: 80%;
+        font-size: 14px;
         display: block;
         padding: 10px;
         text-align: center;
         text-decoration: none;
         color: #fff;
         background-color: #133d86;
-        margin-bottom: 15px;
-        border-radius: 15px;
+        /* margin-bottom: 13px;
+        border-radius: 14px; */
         transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
     }
     
@@ -135,7 +134,7 @@ footer {
     
     
     footer {
-        font-size: 13px;
+        font-size: 12px;
         position: fixed;
         bottom: 0;
         width: 100%;
