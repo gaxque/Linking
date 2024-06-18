@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0000005f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(wpp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+   
+}
+
+.column {
+    column-count: 2; 
+    column-gap: 20px
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #133d86;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #0062ff;
+    transform: scale(1.1); 
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.39);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ideia elaborada a partir de www.bergler.com intuito somente para treino de programação */ 
