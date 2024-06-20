@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #0000005f;
+    background-color: rgba(0, 0, 0, 0.37);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -25,15 +26,11 @@ body {
 .container {
     width: 100%;
     max-width: 1250px;
-
-    
 }
 
 .column {
-
     column-count: 2;
     column-gap: 20px;
-
 }
 
 .links {
@@ -44,9 +41,7 @@ body {
     gap: 10px;
 }
 
-
-
-a {
+.a-links {
     font-size: 15px;
     display: block;
     padding: 10px;
@@ -59,11 +54,10 @@ a {
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-a:hover {
+.a-links:hover {
     background-color: #0062ff;
     transform: scale(1.1); 
 }
-
 
 footer {
     position: fixed;
@@ -72,38 +66,19 @@ footer {
     background-color: rgba(22, 22, 22, 0.39);
     color: white;
     text-align: center;
-    padding: 5px 0px;
+    padding: 5px 0;
 }
 
-
-/* styled for mobile screens */
-@media only screen and (max-width: 500px) and (orientation: portrait){
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: "Open Sans", sans-serif;
-    }
-
+/* Estilos para telas móveis */
+@media only screen and (max-width: 500px) {
     .column {
         column-count: 2;
-        
+    }
 
     body {
-        font-family: Arial, sans-serif;
-        background-color: #0000005f;
-        color: #fff;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image: url(wpp.jpg);
         background-position: auto;
-        background-size: cover;
     }
-    
+
     .container {
         display: flex;
         flex-direction: column;
@@ -111,44 +86,19 @@ footer {
         align-items: center;
     }
 
-
     .links {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
-    
 
-    a {
+    .a-links {
         width: 80%;
         font-size: 10px;
-        padding: 10px 5px 10px 5px;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-        background-color: #133d86;
+        padding: 10px 5px;
         margin-bottom: 13px;
         border-radius: 14px;
-        transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
     }
-    
-    a:hover {
-        background-color: #0062ff;
-        transform: scale(1.1); 
-    }
-    
-    
+
     footer {
         font-size: 12px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(22, 22, 22, 0.39);
-        color: white;
-        text-align: center;
-        padding: 5px 0;
     }
-
-
 }
