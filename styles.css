@@ -79,9 +79,15 @@ footer {
 /* styled for mobile screens */
 @media (max-width: 500px) {
 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+    }
 
     .column {
-        column-count: 3;
+        column-count: 2;
         transform: translate(12.5px, 0px);
         }
 
@@ -115,9 +121,9 @@ footer {
 
     a {
         width: 80%;
-        font-size: 14px;
+        font-size: 10px;
         display: block;
-        padding: 10px;
+        padding: 10px 5px 10px 5px;
         text-align: center;
         text-decoration: none;
         color: #fff;
