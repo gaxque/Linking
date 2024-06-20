@@ -70,9 +70,9 @@ footer {
 }
 
 /* Estilos para telas móveis */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 490px) {
     .column {
-        column-count: 2;
+        column-count: 3;
         column-gap: 0;
     }
 
@@ -92,10 +92,10 @@ footer {
     }
 
     a{
-        width: 50%;
-        font-size: 10px;
-        padding: 10px 5px;
-        margin: 0px 0px 10px 50px;
+        width: 70%;
+        font-size: 11px;
+        padding: 10px 10px;
+        margin: 0px 0px 15px 22px;
         border-radius: 14px;
     }
 
