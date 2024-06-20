@@ -23,16 +23,16 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
-    padding: 20px;
-   
+    width: 100%;
+    max-width: 1250px;
+
+    
 }
 
 .column {
 
-column-count: 2;
-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
 
 }
 
@@ -72,12 +72,12 @@ footer {
     background-color: rgba(22, 22, 22, 0.39);
     color: white;
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 0px;
 }
 
 
 /* styled for mobile screens */
-@media (max-width: 500px) {
+@media (max-width: 500px) and (orientation: portrait){
 
     * {
         margin: 0;
@@ -112,12 +112,6 @@ footer {
         align-items: center;
     }
     
-
-    .container {
-        width: 100%;
-        max-width: 400px;
-        padding: 2px;
-    }
 
     a {
         width: 80%;
