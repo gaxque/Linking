@@ -49,9 +49,10 @@ a{
     text-decoration: none;
     color: #fff;
     background-color: #133d86;
-    margin: 0px 2px 20px 2px ;
+    margin: 0px 2px 15px 20px ;
     border-radius: 20px;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+
 }
 
 a:hover {
@@ -88,7 +89,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(wpp.jpg);
+        background-image: url(A350.jpg);
         background-position: auto;
         background-size: cover;
     }
