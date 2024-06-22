@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(wpp.jpg);
+    background-image: url(A350.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,13 @@ footer {
 /* styled for mobile screens */
 @media (max-width: 500px) {
 
-
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Open Sans", sans-serif;
+        overflow: hidden;
+    }
     .column {
         column-count: 3;
         transform: translate(12.5px, 0px);
@@ -94,9 +100,10 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url(wpp.jpg);
+        background-image: url(A350.jpg);
         background-position: auto;
         background-size: cover;
+        
     }
     
     .links {
