@@ -49,7 +49,7 @@ a{
     text-decoration: none;
     color: #fff;
     background-color: #133d86;
-    margin: 0px 2px 15px 20px ;
+    margin: 0px 20px 20px 20px ;
     border-radius: 20px;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
 
@@ -76,7 +76,7 @@ footer {
 
 
     .column {
-        column-count: 3;
+        column-count: 2;
         column-gap: 0;
     }
 
@@ -90,7 +90,7 @@ footer {
         justify-content: center;
         align-items: center;
         background-image: url(A350.jpg);
-        background-position: auto;
+        background-position: 75%;
         background-size: cover;
     }
 
@@ -106,14 +106,14 @@ footer {
     }
 
     a{
-        width: 70%;
-        font-size: 11px;
-        padding: 10px 10px;
-        margin: 0px 0px 15px 22px;
-        border-radius: 14px;
+        width: 90px;
+        font-size: 10px;
+        padding: 10px 5px;
+        margin: 1px 10px 22px 20px;
+        border: radi 0;us: 14px;
     }
 
     footer {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
