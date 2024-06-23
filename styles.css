@@ -152,9 +152,24 @@ footer {
         border-radius: 14px;
     }
 
+    .a-links1{
+        font-size: 15px;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #133d86;
+        margin: 0px 20px 20px 20px ;
+        border-radius: 20px;
+        transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+    }
+
     footer {
         font-size: 10px;
         text-align: center; 
         margin-top: 20px; 
     }
 }
+
+/* copVictorHop */
