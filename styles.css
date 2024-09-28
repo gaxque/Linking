@@ -147,7 +147,7 @@ body {
     gap: 15%;
     align-items: end;
     justify-content: center;
-    margin: -5% 0% 0% -13%;
+    margin: -5% 0% 0% -12%;
 }
 
 /* Para dispositivos muito pequenos (até 480px) */
@@ -361,55 +361,5 @@ body {
     /* Removendo a margem lateral */
     }
 }
-
-
-
-/* Media query para Opera GX em telas grandes */
-@media only screen and (min-width: 1600px) {
-    .shine-container {
-        padding: 60px;
-        margin: 0 3%;
-        height: 150px;
-        border-radius: 140%;
-        box-shadow: 0px 12px 220px 40px white;
-        transform: translate(0%, -160%);
-    }
-
-    .Linking-log {
-        font-size: 110px;
-        margin-top: -4%;
-        text-align: center;
-    }
-
-    .gasque {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .gasque2 {
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .esquerda ul {
-        display: flex;
-        flex-direction: column; /* Colocando os links em colunas */
-        align-items: center;    /* Centralizando os links */
-        gap: 15px;
-        padding: 0;
-        margin-top: 2%;
-    }
-
-    .esquerda a {
-        display: block;
-        padding: 20px;
-        width: 100%; /* Links ocupando 100% da largura do container */
-        font-size: 16px;
-        text-align: center;
-        margin-left: 0; /* Removendo a margem lateral */
-    }
-}
-
-
 
 
