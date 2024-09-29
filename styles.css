@@ -158,27 +158,37 @@ body {
         height: 70px;
         border-radius: 50%;
         box-shadow: 0px 4px 90px 10px white;
-        transform: translate(-10%, -130%);
+        transform: translate(0%, -100%);
+    }
+
+    .esquerda a:hover {
+        display: block;
+        border: 2px solid var(--amarelo);
+        color: var(--amarelo);
+        width: 100%; /* Links ocupando 100% da largura do container */
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
     }
 
     .Linking-log {
         font-size: 45px;
         text-align: center;
-        margin-left: -50%;
-
+        margin-right: -20%;
+        justify-content: center;
     }
 
     .gasque {
         font-size: 9px;
         text-align: center;
-        margin-left: 50px;
+        margin-right: -20%;
 
     }
 
     .gasque2 {
         font-size: 9px;
         text-align: center;
-    }
+     }
 
     .esquerda ul {
         display: flex;
@@ -191,7 +201,7 @@ body {
     .esquerda {
 
         
-        margin-left: -50px;
+        margin-left: 29px;
 
     }
 
@@ -199,9 +209,8 @@ body {
         display: block;
         padding: 10px;
         width: 100%; /* Links ocupando 100% da largura do container */
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
-        margin-left: 100px;
         
      /* Removendo a margem lateral */
     }
@@ -249,17 +258,27 @@ body {
 
     .esquerda li {
 
-        margin-left: 0px;
+        margin-left: -20%;
+        font-size: 10px;
 
+    }
+
+    .esquerda a:hover {
+        display: block;
+        border: 2px solid var(--amarelo);
+        color: var(--amarelo);
+        width: 100%; /* Links ocupando 100% da largura do container */
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
     }
 
     .esquerda a {
         display: block;
-        padding: 12px;
         width: 100%; /* Links ocupando 100% da largura do container */
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
-        margin-left: 0; /* Removendo a margem lateral */
+        margin-left: -20px; /* Removendo a margem lateral */
     }
 }
 
@@ -272,6 +291,16 @@ body {
         border-radius: 80%;
         box-shadow: 0px 7px 150px 20px white;
         transform: translate(0%, -110%);
+    }
+
+    .esquerda a:hover {
+        display: block;
+        border: 2px solid var(--amarelo);
+        color: var(--amarelo);
+        width: 100%; /* Links ocupando 100% da largura do container */
+        font-size: 12px;
+        text-align: center;
+        margin: 0;
     }
 
     .Linking-log {
@@ -305,11 +334,20 @@ body {
 
     }
 
+    .esquerda a:hover {
+        display: block;
+        border: 2px solid var(--preto-c);
+        color: var(--amarelo);
+        width: 100%; /* Links ocupando 100% da largura do container */
+        font-size: 10px;
+        text-align: center;
+    }
+
     .esquerda a {
         display: block;
         padding: 15px;
         width: 100%; /* Links ocupando 100% da largura do container */
-        font-size: 14px;
+        font-size: 10px;
         text-align: center;
         /* Removendo a margem lateral */
     }
@@ -330,18 +368,28 @@ body {
         font-size: 80px;
         margin-top: -7%;
         text-align: center;
-        margin-left: -100px;
+        margin-left: -150px;
 
+    }
+
+
+    .esquerda a:hover {
+        display: block;
+        border: 2px solid var(--preto-c);
+        color: var(--amarelo);
+        width: 100%; /* Links ocupando 100% da largura do container */
+        font-size: 10px;
+        text-align: center;
     }
 
     .gasque {
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
-        margin-left: -100px;
+        margin-left: -150px;
     }
 
     .gasque2 {
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
         
     }
@@ -357,15 +405,14 @@ body {
 
     .esquerda li {
 
-        margin-left: -10px;
+        margin-right: 150px;
 
     }
 
     .esquerda a {
         display: block;
-        padding: 15px;
         width: 100%; /* Links ocupando 100% da largura do container */
-        font-size: 15px;
+        font-size: 10px;
         text-align: center;
     /* Removendo a margem lateral */
     }
