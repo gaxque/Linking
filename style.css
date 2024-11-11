@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;900&display=swap');
+
+@font-face {
+    font-family: Empires;
+    src: url(Empires.otf);
+}
+
+:root {
+    --empire-font: "Empires";
+    --montserrat-font: "Montserrat", sans-serif;
+    --amarelo: #ebbf13;
+    --preto-p: #171919;
+    --preto-c: #2d3030;
+    --branco: azure;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--preto-p);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+header {
+    text-align: center;
+}
+
+.Logo-linking {
+    font-family: var(--empire-font);
+    color: var(--amarelo);
+    font-weight: 100;
+    text-shadow: 10px 3px 3px var(--preto-c);
+    font-size: 6rem;
+}
+
+.Produced-gasque {
+    font-family: var(--montserrat-font);
+    color: var(--branco);
+    /* text-shadow: 3px 3px 3px var(--amarelo); */
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+.Links-stye {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10em;
+    width: 100%;
+    padding: 0;
+}
+
+.Links {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.List-link {
+    background-color: var(--preto-c);
+    border-radius: 120px;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.Style-link {
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--montserrat-font);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.Style-link:hover, .List-link:hover {
+    color: var(--amarelo);
+}
+
+.Produced-gasque:hover{
+    
+    color: var(--amarelo);
+
+}
+
+/* -- começo do responsivo */
+
+@media screen and (max-width: 768px) {
+
+    .Links-stye {
+
+        grid-template-columns: repeat(1, 2fr);
+        gap: 0.5em;
+        margin-top: 2em;
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+
+    .Links-stye {
+
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0em;
+        margin-top: 2em;
+
+    }
+    
+}
