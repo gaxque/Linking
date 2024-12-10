@@ -8,11 +8,12 @@
 :root {
     --empire-font: "Empires";
     --montserrat-font: "Montserrat", sans-serif;
-    --amarelo: #ebbf13;
+    --amarelo: #C5212B;
     --preto-p: #171919;
     --preto-c: #2d3030;
     --branco: azure;
 }
+
 
 * {
     box-sizing: border-box;
@@ -34,11 +35,8 @@ header {
 }
 
 .Logo-linking {
-    font-family: var(--empire-font);
-    color: var(--amarelo);
-    font-weight: 100;
-    text-shadow: 10px 3px 3px var(--preto-c);
-    font-size: 6rem;
+    width: 15em ;
+
 }
 
 .Produced-gasque {
@@ -48,6 +46,7 @@ header {
     text-decoration: none;
     font-weight: 400;
     font-size: 0.7rem;
+    margin-top: 1em;
 }
 
 .Links-stye {
@@ -68,7 +67,7 @@ header {
 
 .List-link {
     background-color: var(--preto-c);
-    border-radius: 120px;
+    border-radius: 10px;
     padding: 1em;
     margin: 0.5em;
     text-align: center;
@@ -103,6 +102,12 @@ header {
         gap: 0.5em;
         margin-top: 2em;
     }
+
+    .Logo-linking {
+        width: 12em ;
+        margin-top: 5em;
+    
+    }
     
 }
 
@@ -115,5 +120,12 @@ header {
         margin-top: 2em;
 
     }
+
+    .Logo-linking {
+        width: 12em ;
+        margin-top: 5em;
+    
+    }
+    
     
 }
