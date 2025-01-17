@@ -21,9 +21,7 @@
 }
 
 body {
-    background-image: url(Fundo.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--preto-p);
     display: flex;
     flex-direction: column;
     align-items: center;
